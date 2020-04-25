@@ -1,0 +1,15 @@
+void BubbleSort( int v[], int n){
+    int i, j , aux, V[10];
+    for(int k=0; k<10; k++){
+      scanf("%d", &V[k]);
+    }
+    for(i=0; i<n; i++){
+        for(j=0; j<n; j++){
+            if(v[j]<v[j+1]){
+                aux = v[j];
+                v[j]= v[j+1];
+                v[j+1]= aux;
+            }
+        }
+    }
+}
